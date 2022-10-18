@@ -70,7 +70,7 @@ const CONFIG = {
 			link: 'https://www.youtube.com/feed/subscriptions',
 		},
 		{
-			id: '5',
+			id: '4',
 			name: 'Jellyfin',
 			icon: 'clapperboard',
 			link: 'http://spike.home.arpa:8096/web/index.html#!/home.html',
