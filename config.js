@@ -63,6 +63,10 @@ const spap = {
 					name: 'Prime Video',
 					link: 'https://primevideo.com/',
 				},
+				{
+					name: 'HBO Max',
+					link: 'https://play.hbomax.com/page/urn:hbo:page:home',
+				},
 			],
 		},
 	],
