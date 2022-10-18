@@ -38,6 +38,31 @@ const spap = {
 					name: 'Jellyfin',
 					link: 'http://spike.home.arpa:8096/web/index.html#!/music.html',
 				},
+				{
+					name: 'Soundcloud',
+					link: 'https://soundcloud.com/stream',
+				}
+			],
+		},
+		{
+			icon: 'film',
+			links: [
+				{
+					name: 'Twitch',
+					link: 'https://twitch.tv',
+				},
+				{
+					name: 'Netflix',
+					link: 'https://netflix.com',
+				},
+				{
+					name: 'Disney+',
+					link: 'https://www.disneyplus.com/en-gb/home',
+				},
+				{
+					name: 'Prime Video',
+					link: 'https://primevideo.com/',
+				},
 			],
 		},
 	],
