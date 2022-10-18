@@ -1,14 +1,49 @@
-// ╔╗ ╔═╗╔╗╔╔╦╗╔═╗
-// ╠╩╗║╣ ║║║ ║ ║ ║
-// ╚═╝╚═╝╝╚╝ ╩ ╚═╝
-// ┌─┐┌─┐┌┐┌┌─┐┬┌─┐┬ ┬┬─┐┌─┐┌┬┐┬┌─┐┌┐┌
-// │  │ ││││├┤ ││ ┬│ │├┬┘├─┤ │ ││ ││││
-// └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
+const spap = {
+	firstButtonsContainer: [
+		{
+			name: 'Mail',
+			icon: 'mail',
+			link: 'https://gmail.com/',
+		},
+		{
+			name: 'Reddit',
+			icon: 'glasses',
+			link: 'https://reddit.com',
+		},
+		{
+			name: 'twitter',
+			icon: 'twitter',
+			link: 'https://twitter.com/',
+		},
+		{
+			name: 'Youtube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/feed/subscriptions',
+		},
+		{
+			name: 'Jellyfin',
+			icon: 'clapperboard',
+			link: 'http://spike.home.arpa:8096/web/index.html#!/home.html',
+		},
+	],
+	firstlistsContainer: [
+		{
+			icon: 'music',
+			links: [
+				{
+					name: 'Botbplayer',
+					link: 'http://spike.home.arpa:3131',
+				},
+				{
+					name: 'Jellyfin',
+					link: 'http://spike.home.arpa:8096/web/index.html#!/music.html',
+				},
+			],
+		},
+	],
+}
 
 const CONFIG = {
-	// ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
-	// ├┴┐├─┤└─┐││  └─┐
-	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
 	name: 'Mathias',
@@ -46,121 +81,9 @@ const CONFIG = {
 	hourDarkThemeActive: '18:30',
 	hourDarkThemeInactive: '07:00',
 
-	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
-	// ├┴┐│ │ │  │ │ ││││└─┐
-	// └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
+	firstButtonsContainer: spap.firstButtonsContainer.map((btn, i) => {...btn, id: i}),
+	secondButtonsContainer: [],
 
-	firstButtonsContainer: [
-		{
-			id: '1',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://gmail.com/',
-		},
-		{
-			id: '2',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
-		},
-		{
-			id: '3',
-			name: 'Youtube',
-			icon: 'youtube',
-			link: 'https://www.youtube.com/feed/subscriptions',
-		},
-		{
-			id: '4',
-			name: 'Jellyfin',
-			icon: 'clapperboard',
-			link: 'http://spike.home.arpa:8096/web/index.html#!/home.html',
-		},
-	],
-
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
-		},
-	],
-
-	// ┬  ┬┌─┐┌┬┐┌─┐
-	// │  │└─┐ │ └─┐
-	// ┴─┘┴└─┘ ┴ └─┘
-
-	// First Links Container
-	firstlistsContainer: [
-		{
-			icon: 'music',
-			id: '1',
-			links: [
-				{
-					name: 'Botbplayer',
-					link: 'http://spike.home.arpa:3131',
-				},
-				{
-					name: 'Jellyfin',
-					link: 'http://spike.home.arpa:8096/web/index.html#!/music.html',
-				},
-			],
-		},
-	],
-
-	// Second Links Container
-	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Unused',
-					link: '#',
-				},
-				{
-					name: 'Unused',
-					link: '#',
-				},
-			],
-		},
-	],
+	firstlistsContainer: spap.firstlistsContainer.map((list, i) => {...list, id: i}),
+	secondListsContainer: [],
 };
