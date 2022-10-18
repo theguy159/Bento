@@ -128,6 +128,14 @@ const CONFIG = {
 					name: 'Jellyfin',
 					link: 'http://spike.home.arpa:8096/web/index.html#!/music.html',
 				},
+				{
+					name: 'Unused',
+					link: '#',
+				},
+				{
+					name: 'Unused',
+					link: '#',
+				},
 			],
 		},
 	],
@@ -145,6 +153,14 @@ const CONFIG = {
 				{
 					name: 'Reddit',
 					link: 'https://www.reddit.com',
+				},
+				{
+					name: 'Unused',
+					link: '#',
+				},
+				{
+					name: 'Unused',
+					link: '#',
 				},
 			],
 		},
