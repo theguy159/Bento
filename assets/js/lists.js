@@ -19,7 +19,7 @@ const generateList = (listElement, list) => {
 	}
 }
 
-const generateFirstListsContainer = () => generateList(lists_1, CONFIG.firstListsContainer);
+const generateFirstListsContainer = () => generateList(lists_1, CONFIG.firstlistsContainer);
 const generateSecondListsContainer = () => generateList(lists_2, CONFIG.secondListsContainer);
 
 const generateLists = () => {
