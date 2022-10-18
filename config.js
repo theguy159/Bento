@@ -52,22 +52,28 @@ const CONFIG = {
 
 	firstButtonsContainer: [
 		{
-			id: '2',
+			id: '1',
 			name: 'Mail',
 			icon: 'mail',
 			link: 'https://gmail.com/',
 		},
 		{
-			id: '5',
+			id: '2',
 			name: 'Reddit',
 			icon: 'glasses',
 			link: 'https://reddit.com',
 		},
 		{
-			id: '6',
+			id: '3',
 			name: 'Youtube',
 			icon: 'youtube',
 			link: 'https://www.youtube.com/feed/subscriptions',
+		},
+		{
+			id: '5',
+			name: 'Jellyfin',
+			icon: 'clapperboard',
+			link: 'http://spike.home.arpa:8096/web/index.html#!/home.html',
 		},
 	],
 
