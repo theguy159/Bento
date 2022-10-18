@@ -81,9 +81,9 @@ const CONFIG = {
 	hourDarkThemeActive: '18:30',
 	hourDarkThemeInactive: '07:00',
 
-	firstButtonsContainer: spap.firstButtonsContainer.map((btn, i) => ({...btn, id: i})),
+	firstButtonsContainer: spap.firstButtonsContainer.map((btn, i) => ({...btn, id: i+1})),
 	secondButtonsContainer: [],
 
-	firstlistsContainer: spap.firstlistsContainer.map((list, i) => ({...list, id: i})),
+	firstlistsContainer: spap.firstlistsContainer.map((list, i) => ({...list, id: i+1})),
 	secondListsContainer: [],
 };
