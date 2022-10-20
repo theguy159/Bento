@@ -36,7 +36,7 @@ const spap = {
 				},
 				{
 					name: 'Jellyfin',
-					link: 'http://spike.home.arpa:8096/web/index.html#!/music.html',
+					link: 'http://spike.home.arpa:8096/web/index.html#!/music.html?topParentId=7e64e319657a9516ec78490da03edccb',
 				},
 				{
 					name: 'Soundcloud',
