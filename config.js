@@ -27,7 +27,7 @@ const spap = {
     {
       name: "Jellyfin",
       icon: "clapperboard",
-      link: "http://jellyfin.spike.home.arpa/web/index.html#!/home.html",
+      link: "https://jellyfin.spike.home.arpa/web/index.html#!/home.html",
       keybind: "j",
     },
   ],
@@ -37,12 +37,12 @@ const spap = {
       links: [
         {
           name: "Botbplayer",
-          link: "http://music.spike.home.arpa",
+          link: "https://music.spike.home.arpa",
           keybind: "b",
         },
         {
           name: "Jellyfin",
-          link: "http://jellyfin.spike.home.arpa/web/index.html#!/music.html?topParentId=7e64e319657a9516ec78490da03edccb",
+          link: "https://jellyfin.spike.home.arpa/web/index.html#!/music.html?topParentId=7e64e319657a9516ec78490da03edccb",
           keybind: "J",
         },
         {
