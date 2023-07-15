@@ -36,11 +36,6 @@ const spap = {
       icon: "music",
       links: [
         {
-          name: "Botbplayer",
-          link: "https://music.spike.home.arpa",
-          keybind: "b",
-        },
-        {
           name: "Jellyfin",
           link: "https://jellyfin.spike.home.arpa/web/index.html#!/music.html?topParentId=7e64e319657a9516ec78490da03edccb",
           keybind: "J",
