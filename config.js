@@ -8,7 +8,7 @@ const spap = {
     },
     {
       name: "Reddit",
-      icon: "glasses",
+      icon: "newspaper",
       link: "https://reddit.com",
       keybind: "r",
     },
@@ -29,6 +29,12 @@ const spap = {
       icon: "clapperboard",
       link: "https://jellyfin.spike.home.arpa/web/index.html#!/home.html",
       keybind: "j",
+    },
+    {
+      name: "Twitch",
+      icon: "twitch",
+      link: "https://twitch.tv",
+      keybind: "T",
     },
   ],
   firstlistsContainer: [
@@ -51,11 +57,6 @@ const spap = {
       icon: "film",
       links: [
         {
-          name: "Twitch",
-          link: "https://twitch.tv",
-          keybind: "T",
-        },
-        {
           name: "Netflix",
           link: "https://netflix.com",
           keybind: "n",
@@ -74,6 +75,11 @@ const spap = {
           name: "HBO Max",
           link: "https://play.hbomax.com/page/urn:hbo:page:home",
           keybind: "h",
+        },
+        {
+          name: "Viaplay",
+          link: "https://viaplay.no",
+          keybind: "v",
         },
       ],
     },
