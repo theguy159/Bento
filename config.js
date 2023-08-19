@@ -27,7 +27,7 @@ const spap = {
     {
       name: "Jellyfin",
       icon: "clapperboard",
-      link: "https://jellyfin.spike.home.arpa/web/index.html#!/home.html",
+      link: "https://jellyfin.crackle.home.arpa/web/index.html#!/home.html",
       keybind: "j",
     },
     {
@@ -43,7 +43,7 @@ const spap = {
       links: [
         {
           name: "Jellyfin",
-          link: "https://jellyfin.spike.home.arpa/web/index.html#!/music.html?topParentId=7e64e319657a9516ec78490da03edccb",
+          link: "https://jellyfin.crackle.home.arpa/web/index.html#!/music.html?topParentId=7e64e319657a9516ec78490da03edccb",
           keybind: "J",
         },
         {
