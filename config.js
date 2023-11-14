@@ -51,6 +51,11 @@ const spap = {
           link: "https://soundcloud.com/stream",
           keybind: "s",
         },
+        {
+          name: "BotBp",
+          link: "https://botb.crackle.home.arpa",
+          keybind: "b",
+        },
       ],
     },
     {
