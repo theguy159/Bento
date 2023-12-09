@@ -3,7 +3,7 @@ const spap = {
     {
       name: "Mail",
       icon: "mail",
-      link: "https://gmail.com/",
+      link: "https://mail.proton.me",
       keybind: "m",
     },
     {
