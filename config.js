@@ -77,8 +77,8 @@ const spap = {
           keybind: "p",
         },
         {
-          name: "HBO Max",
-          link: "https://play.hbomax.com/page/urn:hbo:page:home",
+          name: "Max",
+          link: "https://play.max.com/home",
           keybind: "h",
         },
         {
