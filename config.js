@@ -25,9 +25,9 @@ const spap = {
       keybind: "y",
     },
     {
-      name: "Home Assistant",
-      icon: "home",
-      link: "https://home.crackle.home.arpa/",
+      name: "Jellyfin",
+      icon: "tv-minimal-play",
+      link: "https://jellyfin.crackle.home.arpa/",
       keybind: "j",
     },
     {
